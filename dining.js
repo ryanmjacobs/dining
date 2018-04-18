@@ -25,7 +25,8 @@ module.exports.get_activity = function() {
           
             resolve(halls);
         } catch (e) {
-            resolve({error: true, message: e.message});
+            console.log(e);
+            resolve({error: true, message: e.message, code: e.code});
         }
     });
 }
