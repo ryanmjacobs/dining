@@ -24,6 +24,6 @@ $ npm install ucla-dining
 ```
 
 ```javascript
-const dining = require("dining");
+const dining = require("ucla-dining");
 dining.get_activity().then(activity => console.log(activity));
 ```
