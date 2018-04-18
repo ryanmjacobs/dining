@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const dining = require("./dining");
+const dining = require("./lib/dining");
 
 dining.get_activity()
     .then(a => console.log(a))
