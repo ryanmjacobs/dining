@@ -20,18 +20,17 @@ async function main() {
       
             if (activity) {
                 name = name.replace(/ at Rieber/, "");
-      
-                console.log(`${name}: ${activity}`);
                 halls[name] = parseFloat("." + activity);
             }
         });
       
         console.log(JSON.stringify(halls, null, 2));
+        return halls;
     } catch (e) {
-        console.log(JSON.stringify({
+        return {
             error: true,
             message: e.message
-        }, null, 2));
+        };
     }
 }
 
