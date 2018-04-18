@@ -1,0 +1,25 @@
+{
+  "name": "dining",
+  "version": "0.0.1",
+  "description": "ucla dining hall activity scraper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmjacobs/dining.git"
+  },
+  "keywords": [
+    "ucla",
+    "dining",
+    "hall",
+    "activity"
+  ],
+  "author": "Ryan Jacobs <ryan.mjacobs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanmjacobs/dining/issues"
+  },
+  "homepage": "https://github.com/ryanmjacobs/dining#readme"
+}
