@@ -1,6 +1,6 @@
 {
   "name": "ucla-dining",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ucla dining hall activity scraper",
   "main": "lib/dining.js",
   "scripts": {
