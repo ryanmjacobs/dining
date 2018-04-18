@@ -8,7 +8,7 @@ async function main() {
     try {
       //const res  = await fetch("http://menu.dining.ucla.edu/Menus");
       //const body = await res.text();
-        const body = fs.readFileSync("./Menus").toString();
+        const body = fs.readFileSync("./example.html").toString();
         const $ = cheerio.load(body);
       
         let halls = {};
