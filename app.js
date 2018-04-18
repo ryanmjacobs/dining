@@ -5,11 +5,11 @@ const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 
 function get_activity() {
-    return new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
-          //const res  = await fetch("http://menu.dining.ucla.edu/Menus");
-          //const body = await res.text();
-            const body = fs.readFileSync("./example.html").toString();
+            const res  = await fetch("http://menu.dining.ucla.edu/Menus");
+            const body = await res.text();
+          //const body = fs.readFileSync("./example.html").toString();
             const $ = cheerio.load(body);
           
             let halls = {};
